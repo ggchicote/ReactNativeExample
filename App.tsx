@@ -1,9 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <TextInput value='García Chicote, Gonzalo' />
       <Text>Welcome to the CI/CD course!</Text>
       <StatusBar style="auto" />
     </View>
