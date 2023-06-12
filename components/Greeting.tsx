@@ -6,8 +6,8 @@ const Greeting = () => {
 
   return (
     <View style={styles.container}>
-      <TextInput style={styles.input} placeholder='Write your name...' onChangeText={setName}/>
-      <Text style={styles.welcomeText}>Welcome to this CI/CD course, {name}</Text>
+      <TextInput style={styles.input} placeholder='Enter your name...' onChangeText={setName}/>
+      <Text style={styles.welcomeText}>Welcome to this CI/CD for React Native course, {name}</Text>
     </View>
     
   )
