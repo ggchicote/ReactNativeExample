@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TextInput value='García Chicote, Gonzalo' />
+      <TextInput value='García Chicote, Francisco' />
       <Text>Welcome to the CI/CD course!</Text>
       <StatusBar style="auto" />
     </View>
